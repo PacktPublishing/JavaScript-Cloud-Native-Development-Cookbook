@@ -1,0 +1,21 @@
+service: cncb-synthetics
+
+provider:
+  name: aws
+  # cfnRole: arn:aws:iam::<account-number>:role/${opt:stage}-cfnRole
+
+plugins:
+  - serverless-spa-deploy
+  - serverless-spa-config
+
+custom:
+  spa:
+    files:
+      - source: ./build
+        globs: '**/*'
+        headers:
+          CacheControl: max-age=31536000 # 1 year
+      - source: ./build
+        globs: 'index.html'
+        headers:
+          CacheControl: max-age=300 # 5 minutes
