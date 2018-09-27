@@ -66,5 +66,9 @@ Development Patterns and Best Practices. He finds delivering cloud-native soluti
 far the most fun and satisfying, as they force us to rewire how we reason about systems and
 enable us to accomplish far more with much less effort.
 
+## Other books by the authors
+[Cloud Native Development Patterns and Best Practices](https://www.packtpub.com/application-development/cloud-native-development-patterns-and-best-practices?utm_source=github&utm_medium=repository&utm_campaign=9781788473927 )
+
+
 ### Suggestions and Feedback
 [Click here](https://docs.google.com/forms/d/e/1FAIpQLSdy7dATC6QmEL81FIUuymZ0Wy9vH1jHkvpY57OiMeKGqib_Ow/viewform) if you have any feedback or suggestions.
